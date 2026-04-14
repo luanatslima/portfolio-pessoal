@@ -16,8 +16,9 @@ nav {
 }
 
 nav a{
-    color: black;
-    font-weight: 300;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
     padding: 10px;
     text-decoration: none;
     padding: 30px;
@@ -42,6 +43,14 @@ header .conteudo-1{
 
 header .conteudo-2{
     background-color: rgba(231, 162, 216, 0.842);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+header .conteudo-3{
+    background-color: rgba(198, 162, 231, 0.842);
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
