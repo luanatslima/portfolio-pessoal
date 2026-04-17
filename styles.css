@@ -11,8 +11,10 @@ ol .um .dois .tres{
 }
 
 nav {
-    background-color: lightgray;
+    background-color: #BBC4C5;
     padding: 15px;
+    padding-top: 90px;
+    margin-bottom: 20px;
 }
 
 nav a{
@@ -21,8 +23,7 @@ nav a{
     font-size: 17px;
     padding: 10px;
     text-decoration: none;
-    padding: 30px;
-    margin: 35px;
+    margin: 20px;
 }
 
 header .topo{
@@ -55,4 +56,65 @@ header .conteudo-3{
     border-radius: 10px;
     margin-top: 20px;
     margin: 10px 10px 10px 10px;
+}
+
+footer{
+    background-color: #BBC4C5;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;              
+    align-items: flex-start; 
+}
+
+.buttons button{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+    margin: 20px 10px 0px 37px;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.buttons .button-portfolio{
+    background-color: #ADD8E6;
+    padding-left: 30px;
+    padding-right: 110px;
+}
+
+.buttons .button-projetos{
+    background-color: #90EE90;
+    padding-left: 30px;
+    padding-right: 180px;
+}
+
+.buttons .button-newsletter{
+    background-color: #E7A2D8;
+    padding-left: 30px;
+    padding-right: 80px;
+}
+
+.buttons .button-ensaios{
+    background-color: #C6A2E7;
+    padding-left: 30px;
+    padding-right: 150px;
+}
+
+.buttons button:hover{
+    background-color: #BBC4C5;
 }
