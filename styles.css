@@ -26,27 +26,17 @@ nav a{
     margin: 20px;
 }
 
-header .topo{
-    background-color: lightblue;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin: 10px 10px 10px 10px;
-}
-
 header .conteudo-1{
     background-color: rgba(144, 238, 144, 0.842);
     padding: 20px;
     border-radius: 10px;
-    margin-top: 20px;
-    margin: 10px 10px 10px 10px;
+    margin: 40px 10px 10px 10px;
 }
 
 header .conteudo-2{
     background-color: rgba(231, 162, 216, 0.842);
     padding: 20px;
     border-radius: 10px;
-    margin-top: 20px;
     margin: 10px 10px 10px 10px;
 }
 
@@ -54,7 +44,6 @@ header .conteudo-3{
     background-color: rgba(198, 162, 231, 0.842);
     padding: 20px;
     border-radius: 10px;
-    margin-top: 20px;
     margin: 10px 10px 10px 10px;
 }
 
@@ -78,7 +67,7 @@ footer{
     align-items: flex-start; 
 }
 
-.buttons button{
+.buttons a{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
@@ -115,6 +104,6 @@ footer{
     padding-right: 150px;
 }
 
-.buttons button:hover{
+.buttons a:hover{
     background-color: #BBC4C5;
 }
