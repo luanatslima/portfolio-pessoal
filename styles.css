@@ -2,7 +2,20 @@ body{
     background-color: white;
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 100px 0px;
+}
+
+footer{
+    background-color: #BBC4C5;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 ol .um .dois .tres{
@@ -12,11 +25,12 @@ ol .um .dois .tres{
 
 nav {
     background-color: #BBC4C5;
-    padding: 15px;
     padding-top: 90px;
     margin-bottom: 20px;
-    display: flex;       
-    gap: 10px; 
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px;
+    padding: 20px; 
 }
 
 nav a{
@@ -25,13 +39,10 @@ nav a{
     font-size: 17px;
     padding: 10px;
     text-decoration: none;
-    margin: 20px;
-}
-
-.nav .busca{
-    background: lightblue;
-    padding: 20px;
-    flex: 1; 
+    margin: 0px;
+    float: right;
+    text-align: right;
+    margin-right: 15px;
 }
 
 .container-2 {
@@ -70,17 +81,31 @@ header .conteudo-3{
     margin: 10px 10px 10px 10px;
 }
 
-footer{
-    background-color: #BBC4C5;
-    color: white;
+.busca {
+    display: flex;       
+    gap: 10px;          
+    text-align: right;
+    justify-content: flex-end;
+    padding-left: 130px;
+}
+
+.busca input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 17px;
+}
+
+.busca button {
+    background-color: white;
+    color: #BBC4C5;
     font-weight: bold;
     font-size: 17px;
-    padding: 15px;
-    text-align: center;
-    margin-top: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 8px 18px;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
 .buttons {
